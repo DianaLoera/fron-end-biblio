@@ -121,7 +121,7 @@
                         formData.append('archivo', $('input[type=file]')[0].files[0]);
                         $.ajax({
                             type: 'PUT',
-                            url: `https://back-end-biblio.herokuapp.com//upload/usuario/${resp.usrDB._id}`,
+                            url: `https://back-end-biblio.herokuapp.com/upload/usuario/${resp.usrDB._id}`,
                             data: formData,
                             processData: false,
                             contentType: false,
